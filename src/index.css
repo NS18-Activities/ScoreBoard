@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@400;600&display=swap');
+
+@font-face {
+  font-family: "Harrypotter";
+  src: url("./assets/LegendaryRunesFreeTrial-8M22Z.otf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
