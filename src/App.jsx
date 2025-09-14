@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5550/api/event/quizGame");
+        const response = await axios.get("https://api.180daraga.com/api/event/quizGame");
         setUsers(response.data.data);
         setLoading(false);
       } catch (err) {
